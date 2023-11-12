@@ -94,7 +94,7 @@ namespace WindowsFormsApp2
                 case "-":
                     textBox.Text = (resultValue - Double.Parse(textBox.Text)).ToString();
                     break;
-                case "x":
+                case "*":
                     textBox.Text = (resultValue * Double.Parse(textBox.Text)).ToString();
                     break;
                 case "/":
